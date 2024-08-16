@@ -1,25 +1,22 @@
 import {
     FaXTwitter,
-    FaGithub,
     FaLinkedin,
     FaFacebook,
-    FaDiscord,
     FaInstagram,
+    FaCartPlus,
+    FaBagShopping,
+    FaApple,
+    FaGooglePlay,
+    FaYoutube,
+    FaSpotify
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
-
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import projectImage1 from "../assets/image_1.png";
+import projectImage2 from "../assets/image_2.jpg";
+import projectImage3 from "../assets/image_3.jpg";
+import projectImage4 from "../assets/image_4.jpg";
+import projectImage5 from "../assets/image_5.jpg";
+import projectImage6 from "../assets/image_6.jpg";
 
 export const NAVIGATION_LINKS = [
     { label: "Projects", href: "#projects" },
@@ -31,11 +28,13 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-    name: "CARL FRANK",
-    greet: "Hello there! 👋🏻",
-    description:
-        "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    name: "Japhet",
+    surname: "Adjetey",
 };
+
+export const SIGNATURE= {
+    name : "Japhet Adjetey",
+}
 
 export const PROJECTS = [
     {
@@ -89,42 +88,9 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-    "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-    "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-    "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
-];
-
-export const SKILLS = [
-    {
-        icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-        name: "React",
-        experience: "2+ years",
-    },
-    {
-        icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-        name: "Next.js",
-        experience: "1+ year",
-    },
-    {
-        icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-        name: "MongoDB",
-        experience: "1.5+ years",
-    },
-    {
-        icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-        name: "Redis",
-        experience: "1+ year",
-    },
-    {
-        icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
-        name: "Node.js",
-        experience: "2+ years",
-    },
-    {
-        icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-        name: "PostgreSQL",
-        experience: "1+ year",
-    },
+"Japhet Adjetey, born in Kumasi, Ghana, is a talented gospel musician who has touched many hearts with his inspiring music. Growing up in a deeply spiritual environment, Japhet's passion for gospel music was nurtured from an early age.\n" +
+"\n" +
+"He was discovered by a prominent Ghanaian music producer, who recognized his exceptional talent and invited him to record his first tracks. After signing with a local record label, Japhet quickly gained recognition with the release of his debut album, \"Divine Melodies\" (2010), followed by \"Grace and Glory\" (2012). Both albums, infused with traditional Ghanaian rhythms and uplifting messages, resonated deeply with listeners and secured top spots on the Ghanaian music charts.",
 ];
 
 export const EXPERIENCES = [
@@ -175,19 +141,11 @@ export const SOCIAL_MEDIA_LINKS = [
     },
     {
         href: "https://x.com/",
-        icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-    },
-    {
-        href: "https://x.com/",
         icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
     },
     {
         href: "https://x.com/",
         icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-    },
-    {
-        href: "https://github.com/",
-        icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
     },
     {
         href: "https://www.linkedin.com/",
