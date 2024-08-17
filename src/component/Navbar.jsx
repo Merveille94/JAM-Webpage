@@ -16,7 +16,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='flex items-center justify-between h-20 px-4 w-full absolute z-10 text-slate-100'>
+        <div className='flex items-center justify-between h-20 px-4 w-full absolute z-30 text-slate-100'>
             <div>
                 <span>Japhet.A</span>
             </div>
