@@ -22,7 +22,7 @@
         @apply font-bold text-3xl ;
     }
     h3{
-        @apply font-bold text-sm md:text-xl p-2 hover:border-transparent border border-violet-700 rounded text-slate-200;
+        @apply font-bold text-xs md:text-lg p-2 hover:border-transparent border border-violet-700 rounded text-slate-200;
     }
     span{
         @apply text-3xl xl:text-5xl cursor-pointer;

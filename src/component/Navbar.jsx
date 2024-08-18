@@ -49,7 +49,7 @@ const Navbar = () => {
 
             {/*Mobile drop menu*/}
             <div onClick={handleNav} className={nav ? 'absolute top-0 left-0 w-full h-screen bg-gray-950 py-7' : 'absolute left-[-100%]'}>
-                <ul className='flex flex-col items-center py-7 md:text-2xl lg:text-3xl xl:text-4xl'>
+                <ul className='flex flex-col items-center py-7 text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>
                     <li className='text-slate-100'>Home</li>
                     <li className='text-slate-100'>Discography</li>
                     <li className='text-slate-100'>Event</li>

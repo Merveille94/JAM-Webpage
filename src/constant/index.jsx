@@ -44,6 +44,7 @@ export const HERO = {
 export const TITLE = {
     heading: "Story Behind",
     Album:"Discography",
+    gig: "Upcoming gigs"
 };
 
 export const SIGNATURE= {
