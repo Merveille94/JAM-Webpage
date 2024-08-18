@@ -1,3 +1,4 @@
+import { GrApple, GrSpotify, GrYoutube } from "react-icons/gr";
 import React from 'react';
 import Slider from 'react-slick';
 import {TITLE, IMAGES} from "../constant/index.jsx";
@@ -20,13 +21,17 @@ const Album = () => {
                 <div className='w-full h-full my-10 md:my-12 lg:my-14 xl:my-20'>
                     <Slider {...settings}>
                         {IMAGES.map((src, index) => (
-                            <div key={index} className='flex justify-center items-center'>
-                                <img src={src} alt={`Carousel ${index}`} className='w-5/6 h-auto object-cover border-2 border-slate-500 rounded'/>
+                            <div key={index} className='flex justify-center items-center relative'>
+                                <img src={src} alt={`Carousel ${index}`} className='w-[95%] h-auto border-2 border-slate-900 rounded'/>
+                                <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 hover:opacity-95'>
+                                    <h4 className='mb-2 text-xs md:text-xl lg:text-lg'>Available on</h4>
+                                    <div className='flex'><GrYoutube size={20}/><GrApple size={20} className='mx-2'/><GrSpotify size={20}/></div>
+                                </div>
                             </div>
                         ))}
                     </Slider>
                 </div>
-                <div className='flex items-center justify-center'><h3>View all Discography</h3></div>
+                <div className='flex items-center justify-center'><h3>View all Discographies</h3></div>
             </div>
         </div>
     );
