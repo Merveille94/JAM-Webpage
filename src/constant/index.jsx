@@ -11,7 +11,7 @@ import projectImage3 from "../assets/image_3.jpg";
 import projectImage4 from "../assets/image_4.jpg";
 import projectImage5 from "../assets/image_5.jpg";
 import projectImage6 from "../assets/image_6.jpg";
-import {browser} from "globals";
+
 
 export const NAVIGATION_LINKS = [
     { label: "Projects", href: "#projects" },
@@ -22,6 +22,20 @@ export const NAVIGATION_LINKS = [
     { label: "Contact", href: "#contact" },
 ];
 
+import Album1 from "../assets/Album (1).jpg";
+import Album2 from "../assets/Album (2).jpg";
+import Album3 from "../assets/Album (3).jpg";
+import Album4 from "../assets/Album (4).jpg";
+import Album5 from "../assets/Album (5).jpg";
+
+export const IMAGES = [
+    Album1,
+    Album2,
+    Album3,
+    Album4,
+    Album5
+];
+
 export const HERO = {
     name: "Japhet",
     surname: "Adjetey",
@@ -29,7 +43,7 @@ export const HERO = {
 
 export const TITLE = {
     heading: "Story Behind",
-    Album:"Discovery",
+    Album:"Discography",
 };
 
 export const SIGNATURE= {
