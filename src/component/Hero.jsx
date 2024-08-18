@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { BsFillPlayCircleFill } from "react-icons/bs";
 import bgImage from '../assets/image_8.jpg'
 import bgImage2 from '../assets/image_7.png'
 
@@ -35,6 +36,16 @@ const Hero = () => {
                     <div className='absolute bottom-1/4 transform -translate-y-1/2 right-[14%] z-5 text-right right-text transition-transform duration-1000 ease-out'>
                         <p className='text-white text-3xl md:text-5xl lg:text-7xl xl:text-9xl font-bold'>Adjetey</p>
                     </div>
+                <div className='absolute bottom-0 right-0 p-4 z-10 text-slate-100'>
+                    <div className='flex items-center space-x-4'>
+                        <button className='border hover:border-transparent rounded-full transition-transform delay-1000 ease-out p-2 md:p-3'><BsFillPlayCircleFill size={25}/>
+                        </button>
+                        <div className='hidden md:block bg-gray-800 p-4 rounded-md max-w-xs'>
+                            <p className='text-xs md:text-sm '>This year's most streamed Gospel Artist. New video "Healing Factor" is now on all music
+                                platforms</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

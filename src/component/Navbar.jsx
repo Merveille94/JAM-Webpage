@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
 import {
@@ -43,7 +43,7 @@ const Navbar = () => {
 
                 {/*Hamburger menu */}
                 <div onClick={handleNav} className='xl:hidden flex z-10'>
-                    {nav ? <IoCloseOutline size={25} className='text-slate-100'/> :  <RxHamburgerMenu size={25} className='text-slate-100'/>}
+                    {nav ? <IoCloseOutline size={25} className='text-slate-100'/> :  <RxHamburgerMenu size={25} className='text-slate-100 border rounded-full p-1 hover:border-transparent'/>}
                 </div>
             </div>
 
