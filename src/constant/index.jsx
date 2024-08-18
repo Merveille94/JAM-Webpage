@@ -28,7 +28,8 @@ export const HERO = {
 };
 
 export const TITLE = {
-  heading: "Story Behind"
+    heading: "Story Behind",
+    Album:"Discovery",
 };
 
 export const SIGNATURE= {
