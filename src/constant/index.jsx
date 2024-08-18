@@ -3,12 +3,6 @@ import {
     FaLinkedin,
     FaFacebook,
     FaInstagram,
-    FaCartPlus,
-    FaBagShopping,
-    FaApple,
-    FaGooglePlay,
-    FaYoutube,
-    FaSpotify
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/image_1.png";
@@ -17,6 +11,7 @@ import projectImage3 from "../assets/image_3.jpg";
 import projectImage4 from "../assets/image_4.jpg";
 import projectImage5 from "../assets/image_5.jpg";
 import projectImage6 from "../assets/image_6.jpg";
+import {browser} from "globals";
 
 export const NAVIGATION_LINKS = [
     { label: "Projects", href: "#projects" },
@@ -30,6 +25,10 @@ export const NAVIGATION_LINKS = [
 export const HERO = {
     name: "Japhet",
     surname: "Adjetey",
+};
+
+export const TITLE = {
+  heading: "Story Behind"
 };
 
 export const SIGNATURE= {
@@ -88,9 +87,8 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-"Japhet Adjetey, born in Kumasi, Ghana, is a talented gospel musician who has touched many hearts with his inspiring music. Growing up in a deeply spiritual environment, Japhet's passion for gospel music was nurtured from an early age.\n" +
-"\n" +
-"He was discovered by a prominent Ghanaian music producer, who recognized his exceptional talent and invited him to record his first tracks. After signing with a local record label, Japhet quickly gained recognition with the release of his debut album, \"Divine Melodies\" (2010), followed by \"Grace and Glory\" (2012). Both albums, infused with traditional Ghanaian rhythms and uplifting messages, resonated deeply with listeners and secured top spots on the Ghanaian music charts.",
+    "Japhet Adjetey Ministry, created in Accra, Ghana, is a gospel group headed by the musician Japhet who is a renowned Ghanaian producer with millions of followers and a record label. ",<br/>,<br/>,
+    "In 2010, he soon gained recognition with the release of his first two albums, \"Divine Melodies\" (2010) and \"Grace and Glory\" (2012), both of which were influenced by traditional Ghanaian rhythms and reached the top of the Ghanaian music charts.",
 ];
 
 export const EXPERIENCES = [
