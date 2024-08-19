@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <span>Japhet.A</span>
-                    <p className='text-sm my-4 text-center'>© 2024 Japhet Adjetey Ministry / Design by Merveille Manuele </p>
+                    <p className='text-sm my-2 text-center'>© 2024 Japhet Adjetey Ministry / Design by Merveille Manuele </p>
                     <p className='text-xs text-zinc-600 max-w-lg text-center'>This site was created and design from
                         scratch by Merveille Manuele no Template or cloning was used in the making of this site for
                         collaboration or info pleas contact @Merveille94 on github or Manuele07merveille@gmail.com
