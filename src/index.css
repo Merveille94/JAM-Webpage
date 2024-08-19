@@ -15,15 +15,17 @@
         @apply p-4 font-medium cursor-pointer;
     }
     h1{
-        @apply font-bold text-3xl md:text-4xl;
+        @apply font-bold text-4xl md:text-5xl lg:text-6xl;
     }
 
     h2{
         @apply font-bold text-3xl ;
     }
-    h3{
-        @apply font-bold text-xs md:text-lg p-2 hover:border-transparent border border-violet-700 rounded text-slate-200;
+
+    h3 {
+        @apply font-bold text-xs md:text-lg p-2 border border-violet-700 transition-all duration-700 ease-in-out hover:border-transparent rounded text-slate-200;
     }
+
     span{
         @apply text-3xl xl:text-5xl cursor-pointer;
         font-family: "Grey Qo", cursive;

@@ -38,7 +38,7 @@ const Hero = () => {
                     </div>
                 <div className='absolute bottom-0 right-0 p-4 z-10 text-slate-100'>
                     <div className='flex items-center space-x-4'>
-                        <button className='border hover:border-transparent rounded-full transition-transform delay-1000 ease-out p-2 md:p-3'><BsFillPlayCircleFill size={30}/>
+                        <button className='border border-slate-200 transition-all duration-700 ease-in-out hover:border-transparent rounded-full p-2 md:p-3'><BsFillPlayCircleFill size={30}/>
                         </button>
                         <div className='hidden md:block bg-gray-800 p-4 rounded-md max-w-xs'>
                             <p className='text-xs md:text-sm '>This year's most streamed Gospel Artist. New video "Heal Factor" is now on all music
