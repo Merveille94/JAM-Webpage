@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Event = () => {
     return (
-        <div className='h-3/4 bg-zinc-900 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
+        <div className='h-3/4 bg-gradient-to-b from-black to-zinc-900 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
             <div className='w-full my-8'>
                 <div className='container mx-auto flex justify-between items-center'>
                     <div className='flex flex-col items-center justify-center w-[70%]'>
