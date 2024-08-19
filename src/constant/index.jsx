@@ -55,7 +55,7 @@ export const HERO = {
 export const TITLE = {
     heading: "Story Behind",
     Album:"Discography",
-    gig: "Upcoming gigs",
+    gig: "Upcoming events",
     news: "Latest News",
 };
 
