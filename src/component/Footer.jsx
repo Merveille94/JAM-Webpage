@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='relative w-full flex items-center justify-end bg-violet-900'>
                 <img className='w-full md:w-[30%] h-auto' alt='background image brown' src={bgImage} />
                 <div className='absolute inset-0 bg-gradient-to-b from-zinc-900/100 to-zinc-900/60'></div>
-                <div className='absolute inset-0 bg-gradient-to-r from-zinc-900/100 to-zinc-900/20'></div>
+                <div className='absolute inset-0 bg-gradient-to-r from-zinc-900/100 to-zinc-900/10'></div>
             </div>
             <div className='container absolute inset-0 flex flex-col items-center justify-center text-slate-200 text-lg z-30'>
                 <p className='text-md md:text-3xl lg:text-5xl'>Japhet@AdjeteyMinistry</p>
