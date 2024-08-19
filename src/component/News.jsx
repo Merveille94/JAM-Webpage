@@ -6,7 +6,7 @@ const News = () => {
             <div className='w-full my-8'>
                 <div className='container flex items-center object-center mx-auto my-2 xl:my-12'>
                     <div className='container mx-auto flex justify-between items-center border-b border-slate-500 pb-2 lg:pb-6'>
-                        <div className='flex flex-col items-center justify-center w-[70%]'>
+                        <div className='flex flex-col items-center justify-center w-[60%]'>
                             <div className='container mx-auto text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
                                 {TITLE.news}
                             </div>
