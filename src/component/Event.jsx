@@ -19,7 +19,7 @@ const Event = () => {
                             <h1>27</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>August</p><p>21:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}/><p className='ml-2'>Encore Beach Club, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/><p className='ml-2'>KN Circle, ROSA (Ghana)</p></div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
                     </div>
 
@@ -28,7 +28,7 @@ const Event = () => {
                             <h1>25</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>March</p><p>18:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}/><p className='ml-2'>Encore Beach Club, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/><p className='ml-2'>KN Circle, ROSA (Ghana)</p></div>
                         <div className='flex flex-row items-center text-md text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
                     </div>
 
@@ -37,7 +37,7 @@ const Event = () => {
                             <h1>23</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>April</p><p>10:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}/><p className='ml-2'>Encore Beach Club, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/><p className='ml-2'>KN Circle, ROSA (Ghana)</p></div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
                     </div>
 
@@ -46,7 +46,7 @@ const Event = () => {
                             <h1>21</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>June</p><p>20:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}/><p className='ml-2'>Encore Beach Club, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/><p className='ml-2'>KN Circle, ROSA (Ghana)</p></div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
                     </div>
 
@@ -55,7 +55,7 @@ const Event = () => {
                             <h1>19</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>July</p><p>11:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}/><p className='ml-2'>Encore Beach Club, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/><p className='ml-2'>KN Circle, ROSA (Ghana)</p></div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
                     </div>
                 </div>

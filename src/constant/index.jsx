@@ -36,6 +36,17 @@ export const IMAGES = [
     Album5
 ];
 
+// NEWS
+import news1 from "../assets/News (1).jpg";
+import news2 from "../assets/News (2).jpg";
+import news3 from "../assets/News (3).jpg";
+
+export const NEWS = {
+    news1,
+    news2,
+    news3,
+};
+
 export const HERO = {
     name: "Japhet",
     surname: "Adjetey",
@@ -44,7 +55,8 @@ export const HERO = {
 export const TITLE = {
     heading: "Story Behind",
     Album:"Discography",
-    gig: "Upcoming gigs"
+    gig: "Upcoming gigs",
+    news: "Latest News",
 };
 
 export const SIGNATURE= {
