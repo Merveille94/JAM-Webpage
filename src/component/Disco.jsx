@@ -17,7 +17,7 @@ const Disco = () => {
                         </div>
                     </div>
 
-                    <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-1 md:grid-cols-3 gap-x-2 gap-y-4 my-8 text-slate-200'>
+                    <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4 my-8 text-slate-200'>
                         {/* Card 1 */}
                         <div className='relative group flex flex-col items-center justify-center rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
                             <img src={DISCOV.Album1} alt='News1' className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>

@@ -17,33 +17,31 @@ const News = () => {
                     </div>
                 </div>
 
-                <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6 my-8 text-slate-200'>
+                <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-6 my-8 text-slate-200'>
                     {/* Card 1 */}
-                    <div className='cursor-pointer flex flex-col items-center justify-center p-2 rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
+                    <div className='cursor-pointer flex flex-col items-center justify-center rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
                         <img src={NEWS.news1} alt='News1' className='h-auto w-[95%] border-2 border-violet-950 rounded-lg' />
                         <div className='flex flex-col items-start w-[95%]'>
                             <p className='mt-4 text-xs uppercase'>September 14, 2024</p>
-                            <p className='mt-4 w-[70%] text-lg lg:text-2xl '>Prayer / Glory All Night soon Available on Youtube</p>
+                            <p className='mt-4 w-[95%] text-lg lg:text-2xl '>Prayer / Glory All Night soon Available on Youtube</p>
                         </div>
                     </div>
 
                     {/* Card 2 */}
-                    <div className='cursor-pointer flex flex-col items-center justify-center p-2 rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
+                    <div className='cursor-pointer flex flex-col items-center justify-center rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
                         <img src={NEWS.news2} alt='News2' className='h-auto w-[95%] border-2 border-violet-950 rounded-lg' />
                         <div className='flex flex-col items-start w-[95%]'>
                             <p className='mt-4 text-xs uppercase'>November 24, 2024</p>
-                            <p className='mt-4 w-[70%] text-lg lg:text-2xl '>Praise / Glory All Night soon Available on Youtube</p>
+                            <p className='mt-4 w-[95%] text-lg lg:text-2xl '>Praise / Glory All Night soon Available on Youtube</p>
                         </div>
                     </div>
 
                     {/* Card 3 */}
-                    <div
-                        className='cursor-pointer flex flex-col items-center justify-center p-2 rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
-                        <img src={NEWS.news3} alt='News3'
-                             className='h-auto w-[95%] border-2 border-violet-950 rounded-lg' />
+                    <div className='cursor-pointer flex flex-col items-center justify-center rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
+                        <img src={NEWS.news3} alt='News3' className='h-auto w-[95%] border-2 border-violet-950 rounded-lg' />
                         <div className='flex flex-col items-start w-[95%]'>
                             <p className='mt-4 text-xs uppercase'>October 26, 2024</p>
-                            <p className='mt-4 w-[70%] text-lg lg:text-2xl '>Prayer / Worship Night Available on Youtube soon</p>
+                            <p className='mt-4 w-[95%] text-lg lg:text-2xl '>Prayer / Worship Night Available on Youtube soon</p>
                         </div>
                     </div>
                 </div>
