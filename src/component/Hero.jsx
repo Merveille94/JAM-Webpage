@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import bgImage from '../assets/image_8.jpg'
 import bgImage2 from '../assets/image_7.png'
