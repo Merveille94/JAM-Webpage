@@ -33,18 +33,18 @@ const Navbar = () => {
             </ul>
             <div className='flex'>
                 <div className='hidden md:flex'>
-                    <FaFacebook size={20} className='icon mr-2'/>
-                    <FaXTwitter size={20} className='icon mr-2'/>
-                    <FaInstagram size={20} className='icon mr-2'/>
+                    <FaFacebook size={30} className='icon mr-3'/>
+                    <FaXTwitter size={30} className='icon mr-3'/>
+                    <FaInstagram size={30} className='icon mr-3'/>
                 </div>
 
                 <div>
-                    <FaBagShopping size={20} className='icon mr-2'/>
+                    <FaBagShopping size={30} className='icon mr-3'/>
                 </div>
 
                 {/*Hamburger menu */}
                 <div onClick={handleNav} className='xl:hidden flex z-10'>
-                    {nav ? <IoCloseOutline size={25} className='text-slate-100'/> :  <RxHamburgerMenu size={25} className='text-slate-100 border rounded-full p-1 hover:border-transparent'/>}
+                    {nav ? <IoCloseOutline size={35} className='text-slate-100'/> :  <RxHamburgerMenu size={30} className='text-slate-100 border rounded-full p-1 hover:border-transparent'/>}
                 </div>
             </div>
 
