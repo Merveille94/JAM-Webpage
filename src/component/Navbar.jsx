@@ -33,13 +33,13 @@ const Navbar = () => {
             </ul>
             <div className='flex'>
                 <div className='hidden md:flex'>
-                    <FaFacebook size={30} className='icon mr-3'/>
-                    <FaXTwitter size={30} className='icon mr-3'/>
-                    <FaInstagram size={30} className='icon mr-3'/>
+                    <FaFacebook size={28} className='icon mr-3'/>
+                    <FaXTwitter size={28} className='icon mr-3'/>
+                    <FaInstagram size={28} className='icon mr-3'/>
                 </div>
 
                 <div>
-                    <FaBagShopping size={30} className='icon mr-3'/>
+                    <FaBagShopping size={28} className='icon mr-3'/>
                 </div>
 
                 {/*Hamburger menu */}
