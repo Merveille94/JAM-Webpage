@@ -2,7 +2,7 @@ import { NEWS, TITLE } from "../constant/index.jsx";
 
 const News = () => {
     return (
-        <div className='h-3/4 bg-zinc-900 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
+        <section className='h-3/4 bg-zinc-900 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
             <div className='w-full my-8'>
                 <div className='container flex items-center object-center mx-auto my-2 xl:my-12'>
                     <div className='container mx-auto flex justify-between items-center border-b border-slate-500 pb-2 lg:pb-6'>
@@ -46,7 +46,7 @@ const News = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

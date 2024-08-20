@@ -25,7 +25,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className='w-full h-3/4 xl:h-screen relative'>
+        <section className='w-full h-3/4 xl:h-screen relative'>
             <img className='h-full w-full object-cover' alt='background image brown' src={bgImage} />
             <div className='absolute w-full h-full top-0 left-0 bg-gray-900/60'></div>
             <div className='absolute inset-0 flex items-center justify-center'>
@@ -46,7 +46,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
