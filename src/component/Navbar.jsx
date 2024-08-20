@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
+import {Link} from 'react-router-dom';
 import {
     FaXTwitter,
     FaFacebook,
@@ -16,13 +17,13 @@ const Navbar = () => {
     };
 
     return (
-        <div className='flex items-center justify-between h-20 px-4 w-full absolute z-30 text-slate-100'>
-            <div>
+        <nav className='flex items-center justify-between h-20 px-4 w-full absolute z-30 text-slate-100'>
+            <Link to='/'>
                 <span>Japhet.A</span>
-            </div>
+            </Link>
             <ul className='hidden xl:flex xl:mt-2'>
-                <li>Home</li>
-                <li>Discography</li>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/discography'>Discography</Link></li>
                 <li>Event</li>
                 <li>Gallery</li>
                 <li>Videos</li>
@@ -60,7 +61,7 @@ const Navbar = () => {
                     <li className='text-slate-100'>Contact</li>
                 </ul>
             </div>
-        </div>
+        </nav>
     );
 };
 
