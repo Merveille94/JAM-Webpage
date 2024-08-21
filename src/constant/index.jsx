@@ -65,6 +65,8 @@ export const TITLE = {
     Album:"Discography",
     gig: "Upcoming events",
     news: "Latest News",
+    mainEvent: "All Events",
+    gallery:"Gallery",
 };
 
 export const SIGNATURE= {

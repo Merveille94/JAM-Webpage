@@ -9,7 +9,7 @@ const MainEvent = () => {
                         <div className='container mx-auto flex flex-col justify-center items-center pb-2 lg:pb-6'>
                             <div className='flex flex-col items-center justify-center pb-4'>
                                 <div className='container mx-auto text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
-                                    {TITLE.gig}
+                                    {TITLE.mainEvent}
                                 </div>
                             </div>
                             <div className='p-2 text-slate-200 text-xs md:text-sm lg:text-md xl:text-lg'>Reserve a seat to some of our amazing shows in Ghana</div>
