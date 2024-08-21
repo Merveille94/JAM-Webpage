@@ -22,10 +22,10 @@ const Footer = () => {
 
                 <div className='flex flex-col items-center justify-center text-center mt-4'>
                     <span className='text-3xl'>Japhet.A</span>
-                    <p className='text-sm my-2 text-center'>© 2024 Japhet Adjetey Ministry / Design by Merveille Manuele</p>
+                    <p className='text-sm my-2 text-center'>© 2024 Japhet Adjetey Ministry / White Flamingo Inc. Production</p>
                     <p className='text-xs text-zinc-400 max-w-lg'>
-                        This site was created and designed by Merveille Manuele. For more info, please contact:
-                        <a href="mailto:Manuele07merveille@gmail.com" className='text-indigo-400'> Manuele07merveille@gmail.com</a>
+                        This site was Powered by White Flamingo Inc. Developed by Merveille Manuele.
+                        <a href="mailto:whiteflamingo09@gmail.com " className='text-indigo-400'> whiteflamingo09@gmail.com </a>
                     </p>
                 </div>
             </div>
