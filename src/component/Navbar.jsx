@@ -24,7 +24,7 @@ const Navbar = () => {
             <ul className='hidden xl:flex xl:mt-2'>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to={'/discography'}>Discography</Link></li>
-                <li>Event</li>
+                <li><Link to={'/events'}>Events</Link></li>
                 <li>Gallery</li>
                 <li>Videos</li>
                 <li>Shop</li>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <ul className='flex flex-col items-center py-7 text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>
                     <li className='text-slate-100'><Link to='/'>Home</Link></li>
                     <li className='text-slate-100'><Link to={'/discography'}>Discography</Link></li>
-                    <li className='text-slate-100'>Event</li>
+                    <li className='text-slate-100'><Link to={'/events'}>Events</Link></li>
                     <li className='text-slate-100'>Gallery</li>
                     <li className='text-slate-100'>Videos</li>
                     <li className='text-slate-100'>Shop</li>

@@ -1,7 +1,7 @@
 import {DISCOV, TITLE} from "../constant/index.jsx";
 import {GrApple, GrSpotify, GrYoutube} from "react-icons/gr";
 
-const Disco = () => {
+const MainAlbum = () => {
     return (
         <>
             <section className='min-h-screen bg-zinc-900 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
@@ -10,7 +10,7 @@ const Disco = () => {
                         <div className='container mx-auto flex flex-col justify-center items-center pb-2 lg:pb-6'>
                             <div className='flex flex-col items-center justify-center pb-4'>
                                 <div className='container mx-auto text-3xl md:text-5xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
-                                    {TITLE.news}
+                                    {TITLE.Album}
                                 </div>
                             </div>
                             <div className='p-2 text-slate-200 text-sm md:text-md lg:text-lg xl:text-2xl'>Discover our newest music albums and singles</div>
@@ -26,9 +26,9 @@ const Disco = () => {
                                 <p className='mt-2 text-md'>2022</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
-                                <h4 className='mb-2 text-xs md:text-xl lg:text-lg'>Available on</h4>
+                                <h4 className='mb-2 text-xs md:text-xl lg:text-lg '>Available on</h4>
                                 <div className='flex cursor-pointer'>
-                                    <GrYoutube size={20}/>
+                                    <GrYoutube size={20} />
                                     <GrApple size={20} className='mx-2'/>
                                     <GrSpotify size={20}/>
                                 </div>
@@ -130,5 +130,5 @@ const Disco = () => {
         </>
     );
 }
-export default Disco;
+export default MainAlbum;
 
