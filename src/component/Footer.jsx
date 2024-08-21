@@ -14,8 +14,8 @@ const Footer = () => {
                 <p className='text-center text-xl md:text-3xl lg:text-5xl my-4'>Japhet@AdjeteyMinistry</p>
 
                 <div className='flex items-center justify-center space-x-4 mt-1 md:mt-4 cursor-pointer'>
-                    <FaInstagram size={20} className='hover:text-indigo-500'/>
-                    <FaXTwitter size={20} className='hover:text-blue-500'/>
+                    <FaInstagram size={20} className='hover:text-orange-500-500'/>
+                    <FaXTwitter size={20} className='hover:text-black-500'/>
                     <FaFacebook size={20} className='hover:text-blue-700'/>
                     <GrYoutube size={20} className='hover:text-red-500'/>
                 </div>

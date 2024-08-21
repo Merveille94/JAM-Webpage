@@ -33,9 +33,9 @@ const Navbar = () => {
             </ul>
             <div className='flex'>
                 <div className='hidden md:flex'>
-                    <FaFacebook size={28} className='icon mr-3'/>
-                    <FaXTwitter size={28} className='icon mr-3'/>
-                    <FaInstagram size={28} className='icon mr-3'/>
+                    <FaInstagram size={28} className='icon mr-3 hover:text-orange-500'/>
+                    <FaXTwitter size={28} className='icon mr-3 hover:text-black'/>
+                    <FaFacebook size={28} className='icon mr-3 hover:text-blue-700'/>
                 </div>
 
                 <div>
