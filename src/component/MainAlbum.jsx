@@ -17,12 +17,12 @@ const MainAlbum = () => {
                         </div>
                     </div>
 
-                    <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4 my-8 text-slate-200'>
+                    <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4 my-8 text-slate-200'>
                         {/* Card 1 */}
                         <div className='relative group flex flex-col items-center justify-center rounded-lg transform transition-transform duration-500 ease-in-out hover:-translate-y-2'>
                             <img src={DISCOV.Album1} alt='News1' className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-lg lg:text-2xl uppercase'>Miracle God</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Miracle God</p>
                                 <p className='mt-2 text-md'>2022</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
@@ -40,7 +40,7 @@ const MainAlbum = () => {
                             <img src={DISCOV.Album2} alt='News1'
                                  className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-lg lg:text-2xl uppercase'>Amazing Grace</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Amazing Grace</p>
                                 <p className='mt-2 text-md'>2023</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
@@ -58,7 +58,7 @@ const MainAlbum = () => {
                             <img src={DISCOV.Album3} alt='News1'
                                  className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-lg lg:text-2xl uppercase'>Sanctified Healing</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Sanctified Healing</p>
                                 <p className='mt-2 text-md'>2024</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
@@ -76,7 +76,7 @@ const MainAlbum = () => {
                             <img src={DISCOV.Album4} alt='News1'
                                  className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-lg lg:text-2xl uppercase'>Bless me oh Lord</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Bless me oh Lord</p>
                                 <p className='mt-2 text-md'>2021</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
@@ -94,7 +94,7 @@ const MainAlbum = () => {
                             <img src={DISCOV.Album5} alt='News1'
                                  className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-lg lg:text-2xl uppercase'>Greatness overload</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Greatness overload</p>
                                 <p className='mt-2 text-md'>2020</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
@@ -112,7 +112,7 @@ const MainAlbum = () => {
                             <img src={DISCOV.Album1} alt='News1'
                                  className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-lg lg:text-2xl uppercase'>Miracle Worker</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Miracle Worker</p>
                                 <p className='mt-2 text-md'>2022</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
