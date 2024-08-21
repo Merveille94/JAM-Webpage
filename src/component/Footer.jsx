@@ -24,7 +24,7 @@ const Footer = () => {
                     <span className='text-3xl'>Japhet.A</span>
                     <p className='text-sm my-2 text-center'>© 2024 Japhet Adjetey Ministry / White Flamingo Inc. Production</p>
                     <p className='text-xs text-zinc-400 max-w-lg'>
-                        This site was Powered by White Flamingo Inc. Developed by Merveille Manuele.
+                        This site was Powered by White Flamingo Inc. developed by Merveille Manuele.
                         <a href="mailto:whiteflamingo09@gmail.com " className='text-indigo-400'> whiteflamingo09@gmail.com </a>
                     </p>
                 </div>
