@@ -12,7 +12,7 @@ const MainEvent = () => {
                                     {TITLE.gig}
                                 </div>
                             </div>
-                            <div className='p-2 text-slate-200 text-xs md:text-sm lg:text-md xl:text-lg'>Follow to our amazing shows in this 2022 all around the world</div>
+                            <div className='p-2 text-slate-200 text-xs md:text-sm lg:text-md xl:text-lg'>Reserve a seat to some of our amazing shows in Ghana</div>
                         </div>
                 </div>
 
@@ -26,13 +26,12 @@ const MainEvent = () => {
                                 <p>21:00</p>
                             </div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/>
-                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                                Circle, ROSA (Ghana)</p>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
                         </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2024</div>
                         <div className='flex flex-row items-center text-md text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-slate-200 cursor-pointer'> Reserve </p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-slate-200 cursor-pointer'> Reserve </p>
                         </div>
                     </div>
 
@@ -44,12 +43,13 @@ const MainEvent = () => {
                                 <p>18:00</p>
                             </div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/><p
-                            className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                            Circle, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'>
+                            <CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
+                        </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2023</div>
                         <div className='flex flex-row items-center text-md text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
                         </div>
                     </div>
 
@@ -59,12 +59,13 @@ const MainEvent = () => {
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>April</p>
                                 <p>10:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/><p
-                            className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                            Circle, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'>
+                            <CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
+                        </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2022</div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'>Passed</p>
                         </div>
                     </div>
 
@@ -75,13 +76,13 @@ const MainEvent = () => {
                                 <p>June</p>
                                 <p>20:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/>
-                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                                Circle, ROSA (Ghana)</p>
+                        <div className='flex flex-row items-center'>
+                            <CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
                         </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2021</div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
                         </div>
                     </div>
 
@@ -92,12 +93,12 @@ const MainEvent = () => {
                                 <p>July</p>
                                 <p>11:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/><p
-                            className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                            Circle, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
+                        </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2020</div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'>Passed</p>
                         </div>
                     </div>
 
@@ -105,15 +106,16 @@ const MainEvent = () => {
                         <div className='flex flex-row items-center justify-between'>
                             <h1 className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>28</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'>
-                                <p>February</p>
+                                <p>April</p>
                                 <p>13:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/><p
-                            className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                            Circle, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'>
+                            <CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
+                        </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2019</div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
                         </div>
                     </div>
 
@@ -124,12 +126,12 @@ const MainEvent = () => {
                                 <p>May</p>
                                 <p>16:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/><p
-                            className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                            Circle, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
+                        </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2018</div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'> Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'>Passed</p>
                         </div>
                     </div>
 
@@ -137,18 +139,17 @@ const MainEvent = () => {
                         <div className='flex flex-row items-center justify-between'>
                             <h1 className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>23</h1>
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'>
-                                <p>January</p>
+                                <p>July</p>
                                 <p>19:00</p></div>
                         </div>
-                        <div className='flex flex-row items-center'><CiLocationOn size={20}
-                                                                                  className='hidden md:block'/><p
-                            className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>KN
-                            Circle, ROSA (Ghana)</p></div>
+                        <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/>
+                            <p className='ml-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm md:text-lg'>KN Circle, ROSA (Ghana)</p>
+                        </div>
+                        <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2017</div>
                         <div className='flex flex-row items-center text-md  text-zinc-400'>
-                            <p className='mr-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'>Passed</p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-red-700 line-through'>Passed</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
