@@ -51,7 +51,7 @@ You can deploy this website on any static hosting service such as Vercel, Netlif
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-- **Whiteflamingo inc.:** This site was Powered by White Flamingo Inc. developed by Merveille Manuele.ok
+- **Whiteflamingo inc.:** This site was Powered by White Flamingo Inc. developed by Merveille Manuele.
 - **React Icons:** Used for social media icons on the website.
 - **Blender 3D:** For creating the artist's image with no background.
 
