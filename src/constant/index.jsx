@@ -67,6 +67,9 @@ export const TITLE = {
     news: "Latest News",
     mainEvent: "All Events",
     gallery:"Gallery",
+    about:"About me",
+    story:"Hear the full story Behind Japhet Adjetey",
+
 };
 
 export const SIGNATURE= {
@@ -129,6 +132,14 @@ export const BIO = [
     "Japhet Adjetey Ministry, created in Accra, Ghana, is a gospel group headed by the musician Japhet who is a renowned Ghanaian producer with millions of followers and a record label.",<br/>,<br/>,
     "In 2010, he soon gained recognition with the release of his first two albums, \"Divine Melodies\" (2010) and \"Grace and Glory\" (2012), both of which were influenced by traditional Ghanaian rhythms and reached the top of the Ghanaian music charts.",
 ];
+
+export const MAINBIOTEXT = [
+    "A dedicated Gospel artist from Ghana, known for his deep passion for praise and worship. His journey into the world of Gospel music began at an early age, growing up in a family that deeply cherished Christian values and the teachings of Jesus Christ. With a voice that touches hearts and lyrics that inspire, Japhet has become a beacon of hope and spiritual upliftment for many across Ghana and beyond.",
+    "In his relentless pursuit to spread the Gospel through music, Japhet founded the 'Adoration Gospel Ministry,' a platform dedicated to the praise and worship of Jesus Christ. This ministry is more than just a collection of songs; it is a movement aimed at bringing people closer to God through the power of music. The ministry holds regular worship sessions, concerts, and outreach programs, all designed to create an atmosphere where believers can connect with God on a deeper level.",
+    "Japhet's music is a unique blend of traditional Ghanaian rhythms and contemporary Gospel sounds, reflecting his rich cultural heritage while also embracing the global nature of Gospel music. His songs, often inspired by his personal experiences and his walk with Christ, resonate with listeners from all walks of life, providing solace, encouragement, and a reminder of God's unending love.",
+    "Over the years, Japhet Adjetey has released several albums, each one a testimony of his growth as an artist and as a servant of God. His ministry has not only touched the lives of individuals but has also contributed to the growth of Gospel music in Ghana. Through his unwavering faith and musical talent, Japhet continues to impact lives, leading many to a place of worship and surrender to Jesus Christ.",
+];
+
 //
 // export const EXPERIENCES = [
 //     {
