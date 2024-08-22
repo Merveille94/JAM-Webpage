@@ -11,7 +11,7 @@ This is the official website for Japhet Adjetey, a renowned gospel musician from
 - **Biography Section:** A detailed "About Me" section that includes a floating image of Japhet Adjetey with text wrapping around it for a professional presentation.
 - **Social Media Integration:** Links to Japhet Adjetey's YouTube and Spotify channels, allowing visitors to easily access his music and videos.
 
-## Tech Stack
+## Tech Stacks
 
 - **React:** A JavaScript library for building user interfaces.
 - **Vite:** A fast build tool and development server for modern web projects.
