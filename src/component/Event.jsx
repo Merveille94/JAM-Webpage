@@ -1,6 +1,7 @@
 import {TITLE} from "../constant/index.jsx";
 import { CiLocationOn } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Event = () => {
     return (
@@ -11,7 +12,7 @@ const Event = () => {
                         <div className='container mx-auto text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>{TITLE.gig}</div>
                         <div className='container flex items-center text-slate-200 mx-auto pt-2'><p className='max-w-xs'>Follow our ongoing concerts all over the world in 2022.</p></div>
                     </div>
-                    <div className='p-2 hover:border-transparent border border-violet-700 rounded text-slate-200'>More Gigs</div>
+                    <div className='p-2 hover:border-transparent border border-violet-700 rounded text-slate-200'><Link to={'/events'}>More Gigs</Link></div>
                 </div>
                 <div className='container mx-auto p-4 md:p-8 lg:p-12 xl:p-14 grid grid-cols-1 grid-rows-5 gap-y-10 my-8 text-slate-200'>
                     <div className='flex items-center justify-between container my-4 mx-auto border-b border-slate-500 pb-1'>

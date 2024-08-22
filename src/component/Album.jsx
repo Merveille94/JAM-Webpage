@@ -1,6 +1,7 @@
 import { GrApple, GrSpotify, GrYoutube } from "react-icons/gr";
 import Slider from 'react-slick';
 import { TITLE, IMAGES } from "../constant/index.jsx";
+import {Link} from "react-router-dom";
 
 const Album = () => {
     // Slick slider settings
@@ -61,7 +62,7 @@ const Album = () => {
                         ))}
                     </Slider>
                 </div>
-                <div className='flex items-center justify-center'><h3>View all Discographies</h3></div>
+                <div className='flex items-center justify-center'><h3><Link to={'/discography'}>View all Discographies</Link></h3></div>
             </div>
         </section>
     );
