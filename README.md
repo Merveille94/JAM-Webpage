@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-You can deploy this website on any static hosting service such as Vercel, Netlify, or GitHub Pages.
+Can be deployed this website on any static hosting service such as Vercel, Netlify, or GitHub Pages.
 
 ## License
 
