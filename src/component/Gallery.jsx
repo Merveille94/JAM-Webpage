@@ -1,4 +1,6 @@
 import {DISCOV, TITLE, NEWS} from "../constant/index.jsx";
+import {FaArrowLeft} from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Gallery = () => {
     return (
@@ -13,6 +15,7 @@ const Gallery = () => {
                             </div>
                         </div>
                         <div className='p-2 text-slate-200 text-sm md:text-md lg:text-lg xl:text-2xl'>Breathtaking Memories</div>
+                        <Link to={'/'}><FaArrowLeft size={30} className="text-3xl md:text-5xl text-slate-200 hover:text-violet-400 cursor-pointer transition-all duration-300 mt-4 " /></Link>
                     </div>
                 </div>
 
