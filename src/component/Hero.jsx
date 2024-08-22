@@ -27,8 +27,9 @@ const Hero = () => {
     return (
         <section className='w-full h-3/4 xl:h-screen relative'>
             <img className='h-full w-full object-cover' alt='background image brown' src={bgImage} />
-            <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-t from-zinc-900 via-gray-900/60'></div>
+            <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-t from-zinc-900 via-gray-900/50'></div>
             <div className='absolute inset-0 flex items-center justify-center'>
+                {/*Can be put back by removing the image from the div and deleting the second overlay*/}
                 <div className='relative right-0 left-0 inset-0 w-[50%] md:w-[43%] '><img src={bgImage2} alt='background image' className='h-full w-auto m-auto left-0 right-0 z-10'/></div>
                 <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-t from-zinc-900'></div>
                 <div className='absolute top-1/2 transform -translate-y-1/2 left-[14%] z-20 text-left left-text transition-transform duration-1000 ease-out'>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MAINBIOTEXT, TITLE, DISCOV } from '../constant';
+import { MAINBIOTEXT, TITLE} from '../constant';
 import {Link} from 'react-router-dom';
 import { FaArrowLeft } from 'react-icons/fa';
 import bgImage from "../assets/image_8.jpg";
@@ -37,9 +37,9 @@ const MainBio = () => {
                     </div>
                 </div>
 
-                <div className='w-full md:w-[95%] lg:w-[95%] xl:w-[95%] container mx-auto p-4 md:p-6 lg:p-10 xl:p-12 my-8 text-slate-200'>
+                <div className=' w-full md:w-[95%] lg:w-[95%] xl:w-[95%] container mx-auto p-2 md:p-4 lg:p-8 xl:p-10 my-6 text-slate-200'>
                     {/* Text Section with Floating Image */}
-                    <div className="relative bg-purple-900 bg-opacity-90 text-white rounded-lg p-6 md:p-10 shadow-lg floating-effect">
+                    <div className="relative bg-purple-900 bg-opacity-60 text-white rounded-lg p-6 md:p-10 shadow-lg floating-effect">
                         <h1 className="text-3xl md:text-4xl font-bold mb-4">Japhet Adjetey</h1>
                         <div className={`text-lg md:text-xl text-justify leading-relaxed ${showFullText ? '' : 'max-h-96 lg:max-h-svh overflow-hidden'}`}>
                             {MAINBIOTEXT.map((paragraph, index) => (
