@@ -58,7 +58,7 @@ const Navbar = () => {
                     <li className='text-slate-100'>Videos</li>
                     <li className='text-slate-100'>Shop</li>
                     <li className='text-slate-100'>News</li>
-                    <li className='text-slate-100'>Contacts</li>
+                    <li className='text-slate-100'>Contact</li>
                 </ul>
             </div>
         </nav>
