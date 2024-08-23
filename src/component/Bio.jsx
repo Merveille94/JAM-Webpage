@@ -19,7 +19,7 @@ const Bio = () => {
                             <span className='pt-4 font-normal md:hidden'>{SIGNATURE.name}</span>
                         </div>
                     </div>
-                    <div className='text-slate-100 md:hidden' onClick={toggleText}>{showFullText ? <FaArrowUpWideShort size={25}/> : <FaArrowDownWideShort size={25}/>}</div>
+                    <div className='text-slate-100 md:hidden' onClick={toggleText}>{showFullText ? <FaArrowUpWideShort size={25} className='text-purple-700'/> : <FaArrowDownWideShort size={25} className='text-purple-700'/>}</div>
 
                     <div className='text-slate-200 flex justify-end mt-2 md:justify-between items-center'>
                         <span className='hidden md:flex'>{SIGNATURE.name}</span>
