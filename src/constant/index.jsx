@@ -27,6 +27,7 @@ import Album2 from "../assets/Album (2).jpg";
 import Album3 from "../assets/Album (3).jpg";
 import Album4 from "../assets/Album (4).jpg";
 import Album5 from "../assets/Album (5).jpg";
+import Profile1 from "../assets/Profile1.jpg";
 
 export const IMAGES = [
     Album1,
@@ -74,6 +75,7 @@ export const TITLE = {
     note:"feel free to contact me and I will get back to you as soon as I can.",
     contactHead:"Contact me",
     contactSubHead:"Be part of this great ministry by reaching to me",
+    testy:"TESTIMONIES",
 };
 
 export const SIGNATURE= {
@@ -86,11 +88,40 @@ export const CONTACTS = {
     emails: ["events@fiddle.co","menager@fiddle.co"],
 };
 
-// phone: "+44 20 123 4567\n" +
-// "+44 20 123 4568",
-//     address:"Flat 12, The Grand Plaza, 123 High St, London, UK, WC1 56789",
-//     emails : "events@fiddle.co\n" +
-// "menager@fiddle.co",
+export const TESTIMONIALS = [
+    {
+        text: "This ministry has changed my life. I'm so grateful to this community.",
+        name: "John Doe",
+        stars: 5,
+        img: Profile1,
+    },
+    {
+        text: "The worship sessions are always so powerful and spirit-filled.",
+        name: "Jane Smith",
+        stars: 4,
+        img: Profile1
+    },
+    {
+        text: "I feel so uplifted every time I attend the services life changed.",
+        name: "Samuel Brown",
+        stars: 5,
+        img: Profile1
+    },
+    {
+        text: "The messages are always timely and relevant. Merci beaucoup !.",
+        name: "Lucy Green",
+        stars: 4,
+        img: Profile1
+    },
+    {
+        text: "This is truly a place where the spirit of God moves.",
+        name: "Michael White",
+        stars: 5,
+        img: Profile1
+    }
+];
+
+
 // export const PROJECTS = [
 //     {
 //         id: 1,
