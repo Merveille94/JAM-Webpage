@@ -43,7 +43,7 @@ const Hero = () => {
                     <div className='flex items-center space-x-4'>
                         <button
                             className='border border-slate-200 transition-all duration-700 ease-in-out hover:border-transparent rounded-full p-2 md:p-3'>
-                            <BsFillPlayCircleFill size={30} className='hover:text-red-700'/>
+                            <BsFillPlayCircleFill size={30} className='text-slate-400 transition-all duration-700 ease-in-out hover:text-violet-700'/>
                         </button>
                         <div className='hidden md:block bg-gray-800 p-4 rounded-md max-w-xs'>
                             <p className='text-xs md:text-sm '>The most streamed Gospel Artist. New video <strong>Healing
