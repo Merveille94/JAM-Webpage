@@ -60,8 +60,14 @@ const Event = () => {
                         <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
                     </div>
                 </div>
+                <div className='md:hidden flex justify-center items-center'>
+                    <div className=' p-2 hover:border-transparent border border-violet-700 rounded text-slate-200'>
+                        <Link to={'/events'}>More Gigs</Link>
+                    </div>
+                </div>
             </div>
         </div>
+
     );
 };
 
