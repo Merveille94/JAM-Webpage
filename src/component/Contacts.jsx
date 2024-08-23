@@ -28,7 +28,7 @@ const Contacts = () => {
                 <div className='w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 bg-white/10 backdrop-blur-md text-white p-8 gap-8 rounded-lg'>
                     {/* left Column (Contact Form) */}
                     <div className='p-6'>
-                        <h3 className='text-2xl md:text-4xl font-bold mb-4'>{TITLE.contact}</h3>
+                        <h3 className='text-2xl border-2 md:text-4xl font-bold mb-4'>{TITLE.contact}</h3>
                         <p className='mb-8 text-lg md:text-xl'>{TITLE.note}</p>
                         <form className='flex flex-col space-y-4'>
                             <input
@@ -53,7 +53,7 @@ const Contacts = () => {
 
                     {/* right Column (Contact Info) */}
                     <div className='bg-purple-900 bg-opacity-80 p-6 rounded-lg'>
-                        <h3 className='text-2xl md:text-4xl font-bold mb-4'>{TITLE.info}</h3>
+                        <h3 className='text-2xl border-2 md:text-4xl font-bold mb-4'>{TITLE.info}</h3>
                         <div className='flex flex-col items-start justify-between my-7 h-3/4'>
                             <div className='p-3'>
                                 <h4 className='text-md md:text-xl lg:text-2xl pb-2'>Address :</h4>
