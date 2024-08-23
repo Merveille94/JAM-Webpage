@@ -56,15 +56,15 @@ const Contacts = () => {
                         <h3 className='text-2xl md:text-4xl font-bold mb-4'>{TITLE.info}</h3>
                         <div className='flex flex-col items-start justify-between my-7 h-3/4'>
                             <div className='p-3'>
-                                <h4 className='text-md pb-2'>Address :</h4>
+                                <h4 className='text-md md:text-xl lg:text-2xl pb-2'>Address :</h4>
                                 <p className='text-md'>{CONTACTS.address}</p>
                             </div>
                             <div className='p-3'>
-                                <h4 className='text-md pb-2'>Managers Phone :</h4>
+                                <h4 className='text-md md:text-xl lg:text-2xl pb-2'>Managers Phone :</h4>
                                 {CONTACTS.phone.map((phone, index) => (<p key={index} className='text-md'>{phone}</p>))}
                             </div>
                             <div className='p-3'>
-                                <h4 className='text-md pb-2'>Email :</h4>
+                                <h4 className='text-md md:text-xl lg:text-2xl pb-2'>Email :</h4>
                                 {CONTACTS.emails.map((email, index) => (<p key={index} className='text-md'>{email}</p>))}
                             </div>
                         </div>
