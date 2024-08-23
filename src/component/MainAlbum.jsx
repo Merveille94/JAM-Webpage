@@ -97,7 +97,7 @@ const MainAlbum = () => {
                             <img src={DISCOV.Album5} alt='News1'
                                  className='h-auto w-[80%] border-2 border-violet-950 rounded-sm'/>
                             <div className='flex flex-col justify-center items-center'>
-                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Greatness overload</p>
+                                <p className='mt-2 text-sm lg:text-2xl uppercase'>Greatness & Merci</p>
                                 <p className='mt-2 text-md'>2020</p>
                             </div>
                             <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-700 group-hover:opacity-80'>
