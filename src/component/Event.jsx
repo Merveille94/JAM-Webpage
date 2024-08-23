@@ -61,7 +61,7 @@ const Event = () => {
                     </div>
                 </div>
                 <div className='md:hidden flex justify-center items-center'>
-                    <div className=' p-2 hover:border-transparent border border-violet-700 rounded text-slate-200'>
+                    <div className='p-2 hover:border-transparent border border-violet-700 rounded text-slate-200'>
                         <Link to={'/events'}>More Gigs</Link>
                     </div>
                 </div>
