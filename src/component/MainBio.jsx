@@ -53,7 +53,7 @@ const MainBio = () => {
                         </button>
 
                         {/* Social Media Icons */}
-                        <div className="mt-4 flex space-x-6 justify-center md:justify-start">
+                        <div className="hidden mt-4 md:flex space-x-6 justify-center md:justify-start">
                             <FaInstagram size={20} className='hover:text-orange-500'/>
                             <FaXTwitter size={20} className='hover:text-black'/>
                             <FaFacebook size={20} className='hover:text-blue-700'/>
