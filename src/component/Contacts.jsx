@@ -54,7 +54,7 @@ const Contacts = () => {
                     {/* right Column (Contact Info) */}
                     <div className='bg-purple-900 bg-opacity-80 p-6 rounded-lg'>
                         <h3 className='text-2xl md:text-4xl font-bold mb-4'>{TITLE.info}</h3>
-                        <div className='flex flex-col items-start justify-between my-7 h-3/4 bg-green-500'>
+                        <div className='flex flex-col items-start justify-between my-7 h-3/4'>
                             <div className='p-3'>
                                 <h4 className='text-md pb-2'>Address :</h4>
                                 <p className='text-md'>{CONTACTS.address}</p>
