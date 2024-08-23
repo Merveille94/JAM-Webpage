@@ -69,13 +69,28 @@ export const TITLE = {
     gallery:"Gallery",
     about:"About me",
     story:"Hear the full story Behind Japhet Adjetey",
-
+    info:"Reach out to me",
+    contact:"Get in touch",
+    note:"feel free to contact me and I will get back to you as soon as I can.",
+    contactHead:"Contact me",
+    contactSubHead:"Be part of this great ministry by reaching to me",
 };
 
 export const SIGNATURE= {
     name : "Japhet Adjetey",
-}
+};
 
+export const CONTACTS = {
+    phone: ["+44 20 123 4567", "+44 20 123 4568"],
+    address: "Flat 12, The Grand Plaza, 123 High St, London, UK, WC1 56789",
+    emails: ["events@fiddle.co","menager@fiddle.co"],
+};
+
+// phone: "+44 20 123 4567\n" +
+// "+44 20 123 4568",
+//     address:"Flat 12, The Grand Plaza, 123 High St, London, UK, WC1 56789",
+//     emails : "events@fiddle.co\n" +
+// "menager@fiddle.co",
 // export const PROJECTS = [
 //     {
 //         id: 1,

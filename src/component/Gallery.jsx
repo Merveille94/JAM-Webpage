@@ -9,13 +9,12 @@ const Gallery = () => {
                 <div className='container flex justify-center items-center mx-auto my-2 xl:my-12'>
                     <div className='container mx-auto flex flex-col justify-center items-center pb-2 lg:pb-6'>
                         <div className='flex flex-col items-center justify-center pb-4'>
-                            <div
-                                className='container mx-auto text-5xl md:text-5xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
+                            <div className='container mx-auto text-5xl md:text-5xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
                                 {TITLE.gallery}
                             </div>
                         </div>
                         <div className='p-2 text-slate-200 text-sm md:text-md lg:text-lg xl:text-2xl'>Breathtaking Memories</div>
-                        <Link to={'/'}><FaArrowLeft size={30} className="text-3xl md:text-5xl text-slate-200 hover:text-violet-400 cursor-pointer transition-all duration-300 mt-4 " /></Link>
+                        <Link to={'/'}><FaArrowLeft size={30} className="xl:hidden text-3xl md:text-5xl text-slate-200 hover:text-violet-400 cursor-pointer transition-all duration-300 mt-4 " /></Link>
                     </div>
                 </div>
 

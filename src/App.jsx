@@ -9,7 +9,8 @@ import HomePage from "./pages/HomePage.jsx";
 import AlbumPage from "./pages/AlbumPage.jsx";
 import EventPage from "./pages/EventPage.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
-import MainBio from "./component/MainBio.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import BioPage from "./pages/BioPage.jsx";
 
 
 const router = createBrowserRouter(
@@ -19,7 +20,8 @@ const router = createBrowserRouter(
            <Route path='/discography' element={<AlbumPage/>}/>
            <Route path='/events' element={<EventPage/>}/>
            <Route path='/gallery' element={<GalleryPage/>}/>
-           <Route path='/biography' element={<MainBio/>}/>
+           <Route path='/biography' element={<BioPage/>}/>
+           <Route path='/contacts' element={<ContactPage/>}/>
        </Route>
     )
 );
