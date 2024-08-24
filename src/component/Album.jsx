@@ -56,7 +56,11 @@ const Album = () => {
                                 />
                                 <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-95'>
                                     <h4 className='mb-2 text-xs md:text-xl lg:text-lg'>Available on</h4>
-                                    <div className='flex'><GrYoutube size={20}/><GrApple size={20} className='mx-2'/><GrSpotify size={20}/></div>
+                                    <div className='flex'>
+                                        <GrYoutube size={20}  className='hover:text-red-600'/>
+                                        <GrApple size={20} className='mx-2'/>
+                                        <GrSpotify size={20} className='hover:text-green-600'/>
+                                    </div>
                                 </div>
                             </div>
                         ))}
