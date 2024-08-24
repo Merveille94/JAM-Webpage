@@ -34,7 +34,7 @@ const MainEvent = () => {
                         </div>
                         <div className='hidden sm:block text-zinc-400 text-md md:text-lg'>2024</div>
                         <div className='flex flex-row items-center text-md text-zinc-400'>
-                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-slate-200 cursor-pointer'> Reserve </p>
+                            <p className='ml-2 border-2 border-violet-700 rounded-md p-2 text-slate-200 cursor-pointer'><Link to={'/reservation'} className='hover:text-blue-600'>Reserve</Link></p>
                         </div>
                     </div>
 
