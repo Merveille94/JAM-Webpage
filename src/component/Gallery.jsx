@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const Gallery = () => {
     return (
-        <div  className='min-h-screen bg-gradient-to-t from-zinc-900 via-zinc-900 to-violet-950 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
+        <div className='min-h-screen bg-gradient-to-t from-zinc-900 via-zinc-900 to-violet-950 w-full flex items-center justify-center py-8 md:py-10 ld:py-12 xl:py-16 px-8 md:px-14'>
             <div className="w-full my-10">
                 <div className='container flex justify-center items-center mx-auto my-2 xl:my-12'>
                     <div className='container mx-auto flex flex-col justify-center items-center pb-2 lg:pb-6'>

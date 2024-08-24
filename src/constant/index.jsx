@@ -76,6 +76,8 @@ export const TITLE = {
     contactHead:"Contact me",
     contactSubHead:"Be part of this great ministry by reaching to me",
     testy:"TESTIMONIES",
+    video:"Video & Sounds",
+    videoText:"Checkout a few of our streams and videos",
 };
 
 export const SIGNATURE= {

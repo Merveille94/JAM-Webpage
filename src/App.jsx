@@ -11,6 +11,7 @@ import EventPage from "./pages/EventPage.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import BioPage from "./pages/BioPage.jsx";
+import VideoPage from "./pages/VideoPage.jsx";
 
 
 const router = createBrowserRouter(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
            <Route path='/gallery' element={<GalleryPage/>}/>
            <Route path='/biography' element={<BioPage/>}/>
            <Route path='/contacts' element={<ContactPage/>}/>
+           <Route path='/videos' element={<VideoPage/>}/>
        </Route>
     )
 );
