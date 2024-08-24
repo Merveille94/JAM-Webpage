@@ -49,11 +49,15 @@ export const DISCOV = {
 import news1 from "../assets/News (1).jpg";
 import news2 from "../assets/News (2).jpg";
 import news3 from "../assets/News (3).jpg";
+import news4 from "../assets/News (A).jpg";
+import news5 from "../assets/News (B).jpg";
 
 export const NEWS = {
     news1,
     news2,
     news3,
+    news4,
+    news5,
 };
 
 // export const HERO = {

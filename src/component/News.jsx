@@ -1,4 +1,5 @@
 import { NEWS, TITLE } from "../constant/index.jsx";
+import {Link} from "react-router-dom";
 
 const News = () => {
     return (
@@ -11,9 +12,7 @@ const News = () => {
                                 {TITLE.news}
                             </div>
                         </div>
-                        <div className='p-2 hover:border-transparent border border-violet-700 rounded text-slate-200 cursor-pointer'>
-                            More News
-                        </div>
+                        <h3><Link to={'/news'}>More News</Link></h3>
                     </div>
                 </div>
 
