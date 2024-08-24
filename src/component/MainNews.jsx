@@ -21,7 +21,7 @@ const MainNews = () => {
     const displayedItems = showAll ? newsItems : newsItems.slice(0, 3);
 
     return (
-        <section className='bg-gradient-to-b from-black to-zinc-900 w-full flex flex-col items-center py-8 md:py-12 lg:py-16 px-8 md:px-14'>
+        <section className='bg-gradient-to-t from-zinc-900 via-pink-950 to-pink-950 w-full flex flex-col items-center py-8 md:py-12 lg:py-16 px-8 md:px-14'>
             <div className='w-full max-w-7xl mx-auto my-8'>
                 <div className='flex flex-col justify-center items-center mb-8'>
                     <div className='text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
@@ -47,7 +47,7 @@ const MainNews = () => {
                         </div>
                     ))}
                 </div>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center md:hidden'>
                     <button
                         onClick={() => setShowAll(!showAll)}
                         className='mt-6 px-4 py-2 bg-violet-500 text-white rounded hover:bg-violet-600 transition-all duration-300 flex items-center'>
