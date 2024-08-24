@@ -21,7 +21,7 @@ const Event = () => {
                             <div className='flex flex-col items-start ml-2 text-sm text-zinc-400'><p>August</p><p>21:00</p></div>
                         </div>
                         <div className='flex flex-row items-center'><CiLocationOn size={20} className='hidden md:block'/><p className='ml-2'>KN Circle, ROSA (Ghana)</p></div>
-                        <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'>Buy Ticket</p><FaArrowRight size={15}/></div>
+                        <div className='flex flex-row items-center text-md  text-zinc-400'><p className='mr-2'><Link to={'/reservation'} className='hover:text-blue-600'>Buy Ticket</Link></p><FaArrowRight size={15}/></div>
                     </div>
 
                     <div className='flex items-center justify-between container my-4 mx-auto border-b border-slate-500'>

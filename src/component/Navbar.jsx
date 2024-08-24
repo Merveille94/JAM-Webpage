@@ -27,7 +27,6 @@ const Navbar = () => {
                 <li><Link to={'/events'}>Events</Link></li>
                 <li><Link to={'/gallery'}>Gallery</Link></li>
                 <li><Link to={'/videos'}>Videos</Link></li>
-                <li>Shop</li>
                 <li>News</li>
                 <li><Link to={'/contacts'}>Contacts</Link></li>
             </ul>
@@ -56,7 +55,6 @@ const Navbar = () => {
                     <li className='text-slate-100'><Link to={'/events'}>Events</Link></li>
                     <li className='text-slate-100'><Link to={'/gallery'}>Gallery</Link></li>
                     <li className='text-slate-100'><Link to={'/videos'}>Videos</Link></li>
-                    <li className='text-slate-100'>Shop</li>
                     <li className='text-slate-100'>News</li>
                     <li className='text-slate-100'><Link to={'/contacts'}>Contacts</Link></li>
                 </ul>

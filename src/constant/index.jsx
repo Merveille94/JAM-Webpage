@@ -78,6 +78,7 @@ export const TITLE = {
     testy:"TESTIMONIES",
     video:"Video & Sounds",
     videoText:"Checkout a few of our streams and videos",
+    reservation:"Reservation",
 };
 
 export const SIGNATURE= {
