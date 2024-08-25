@@ -14,6 +14,7 @@ import BioPage from "./pages/BioPage.jsx";
 import VideoPage from "./pages/VideoPage.jsx";
 import ReservationPage from "./pages/ReservationPage.jsx";
 import NewsPage from "./pages/NewsPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 
 
 const router = createBrowserRouter(
@@ -29,6 +30,7 @@ const router = createBrowserRouter(
            <Route path='/videos' element={<VideoPage/>}/>
            <Route path='/reservation' element={<ReservationPage/>}/>
            <Route path='/news' element={<NewsPage/>}/>
+           <Route path='*' element={<NotFoundPage/>}/>
        </Route>
     )
 );
