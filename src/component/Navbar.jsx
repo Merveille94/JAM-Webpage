@@ -6,7 +6,6 @@ import {
     FaXTwitter,
     FaFacebook,
     FaInstagram,
-    FaBagShopping,
 } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -35,10 +34,6 @@ const Navbar = () => {
                     <FaInstagram size={28} className='icon mr-3 hover:text-orange-500'/>
                     <FaXTwitter size={28} className='icon mr-3 hover:text-black'/>
                     <FaFacebook size={28} className='icon mr-3 hover:text-blue-700'/>
-                </div>
-
-                <div>
-                    <FaBagShopping size={28} className='icon mr-3'/>
                 </div>
 
                 {/*Hamburger menu */}
