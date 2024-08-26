@@ -39,7 +39,7 @@ const ReservationComponent = () => {
                         <div className='mb-4'>
                             <label className='block text-white text-sm font-bold mb-2'>Email</label>
                             <input className='w-full px-3 py-2 text-black rounded-md' type="email"
-                                   placeholder="Your Email"/>
+                                   placeholder="Your Email" required/>
                         </div>
                         <div className='mt-4'>
                             <label className='block text-white text-sm font-bold mb-2'>Event Date</label>
