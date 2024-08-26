@@ -8,7 +8,7 @@ import { GrYoutube } from "react-icons/gr";
 
 const Footer = () => {
     return (
-        <footer className='relative min-h-full bg-zinc-900 w-full py-4 px-8 md:px-14 bg-gradient-to-b from-zinc-900 to-violet-950'>
+        <footer className='relative min-h-full w-full py-4 px-8 md:px-14 bg-gradient-to-b from-zinc-900 to-violet-950'>
 
             <div className='container mx-auto relative flex flex-col items-center justify-center text-slate-200 text-lg z-20'>
                 <p className='text-center text-xl md:text-3xl lg:text-5xl my-4'>Japhet@AdjeteyMinistry</p>

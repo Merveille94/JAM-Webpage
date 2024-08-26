@@ -8,8 +8,11 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply bg-violet-950 ;
+    }
     body{
-        @apply font-[Roboto]
+        @apply font-[Roboto] scroll-smooth;
     }
     li{
         @apply p-4 font-medium cursor-pointer;
