@@ -20,6 +20,8 @@ const MainNews = () => {
     // Display only 3 items initially
     const displayedItems = showAll ? newsItems : newsItems.slice(0, 3);
 
+
+
     return (
         <section className='bg-gradient-to-t from-zinc-900 via-pink-950 to-pink-950 w-full flex flex-col items-center py-8 md:py-12 lg:py-16 px-8 md:px-14'>
             <div className='w-full max-w-7xl mx-auto my-8'>
