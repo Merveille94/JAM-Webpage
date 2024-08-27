@@ -22,8 +22,8 @@ const router = createBrowserRouter(
 
        <Route path='/' element={<MainLayout/>}>
            <Route index element={<HomePage/>}/>
-           <Route path='/discography' element={<AlbumPage/>}/>
-           <Route path='/events' element={<EventPage/>}/>
+           <Route path='/album' element={<AlbumPage/>}/>
+           <Route path='/event' element={<EventPage/>}/>
            <Route path='/gallery' element={<GalleryPage/>}/>
            <Route path='/biography' element={<BioPage/>}/>
            <Route path='/contacts' element={<ContactPage/>}/>

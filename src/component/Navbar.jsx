@@ -22,6 +22,7 @@ const Navbar = () => {
         setNav(!nav);
     };
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const handleScroll = () => {
         const currentScrollPos = window.pageYOffset;
         const isScrollingUp = currentScrollPos > prevScrollPos;
@@ -35,7 +36,7 @@ const Navbar = () => {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [prevScrollPos]);
+    }, [handleScroll, prevScrollPos]);
 
     return (
         <nav
@@ -49,8 +50,8 @@ const Navbar = () => {
                 </NavLink>
                 <ul className='hidden xl:flex xl:mt-2'>
                     <li><NavLink to='/' className={activeNav}>Home</NavLink></li>
-                    <li><NavLink to='/discography' className={activeNav}>Discography</NavLink></li>
-                    <li><NavLink to='/events' className={activeNav}>Events</NavLink></li>
+                    <li><NavLink to='/album' className={activeNav}>Discography</NavLink></li>
+                    <li><NavLink to='/event' className={activeNav}>Events</NavLink></li>
                     <li><NavLink to='/gallery' className={activeNav}>Gallery</NavLink></li>
                     <li><NavLink to='/videos' className={activeNav}>Videos</NavLink></li>
                     <li><NavLink to='/news' className={activeNav}>News</NavLink></li>
@@ -73,8 +74,8 @@ const Navbar = () => {
                 <div onClick={handleNav} className={nav ? 'absolute top-0 left-0 w-full h-screen bg-gray-950 py-7' : 'absolute left-[-100%]'}>
                     <ul className='flex flex-col items-center py-7 text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>
                         <li className='text-slate-100'><NavLink to='/'>Home</NavLink></li>
-                        <li className='text-slate-100'><NavLink to='/discography'>Discography</NavLink></li>
-                        <li className='text-slate-100'><NavLink to='/events'>Events</NavLink></li>
+                        <li className='text-slate-100'><NavLink to='/album'>Discography</NavLink></li>
+                        <li className='text-slate-100'><NavLink to='/event'>Events</NavLink></li>
                         <li className='text-slate-100'><NavLink to='/gallery'>Gallery</NavLink></li>
                         <li className='text-slate-100'><NavLink to='/videos'>Videos</NavLink></li>
                         <li className='text-slate-100'><NavLink to='/news'>News</NavLink></li>
