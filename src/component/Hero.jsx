@@ -48,7 +48,7 @@ const Hero = () => {
                 </div>
                 <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-t from-zinc-900'></div>
                 <motion.div
-                    className='absolute top-1/2 transform -translate-y-1/2 left-[14%] z-20 text-left left-text'
+                    className='absolute top-1/2 transform -translate-y-1/2 left-[14%] z-20 text-left left-text duration-700'
                     initial={{ opacity: 0, x: -100 }}
                     animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
                     transition={{ duration: 1 }}
@@ -56,7 +56,7 @@ const Hero = () => {
                     <p className='text-white text-3xl md:text-5xl lg:text-7xl xl:text-9xl font-bold'>Japhet</p>
                 </motion.div>
                 <motion.div
-                    className='absolute bottom-1/4 transform -translate-y-1/2 right-[14%] z-5 text-right right-text'
+                    className='absolute bottom-1/4 transform -translate-y-1/2 right-[14%] z-5 text-right right-text duration-700'
                     initial={{ opacity: 0, x: 100 }}
                     animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
                     transition={{ duration: 1 }}
