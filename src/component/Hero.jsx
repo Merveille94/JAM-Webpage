@@ -46,7 +46,7 @@ const Hero = () => {
                             <BsFillPlayCircleFill size={30} className='text-slate-400 transition-all duration-700 ease-in-out hover:text-violet-700'/>
                         </button>
                         <div className='hidden md:block bg-gray-800 p-4 rounded-md max-w-xs'>
-                            <p className='text-xs md:text-sm '>The most streamed Gospel Artist. New video <strong>Healing
+                            <p className='text-xs md:text-sm '>The most streamed Gospel Artist New video <strong>Healing
                                 Factor</strong> is now on all music platforms</p>
                         </div>
                     </div>
