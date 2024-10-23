@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MAINBIOTEXT, TITLE} from '../constant';
 import {Link} from 'react-router-dom';
-import { FaArrowLeft } from 'react-icons/fa';
+import { FaArrowLeft, FaTiktok } from 'react-icons/fa';
 import bgImage from "../assets/image_8.jpg";
 import {FaFacebook, FaInstagram, FaXTwitter} from "react-icons/fa6";
 import {GrYoutube} from "react-icons/gr";
@@ -54,10 +54,15 @@ const MainBio = () => {
 
                         {/* Social Media Icons */}
                         <div className="hidden mt-4 md:flex space-x-6 justify-center md:justify-start">
-                            <FaInstagram size={20} className='hover:text-orange-500'/>
-                            <FaXTwitter size={20} className='hover:text-black'/>
-                            <FaFacebook size={20} className='hover:text-blue-700'/>
-                            <GrYoutube size={20} className='hover:text-red-500'/>
+                            <a href="https://www.instagram.com/japhetadjetey
+" target="_blank"><FaInstagram size={20} className='hover:text-orange-500'/></a>
+                            <a href="https://twitter.com/japhetadjetey
+" target="_blank"><FaXTwitter size={20} className='hover:text-black'/></a>
+                            <a href="ttps://www.facebook.com/japhetAadjetey
+" target="_blank"><FaFacebook size={20} className='hover:text-blue-700'/></a>
+                            <a href="https://youtube.com/@japhetadjeteyofficial
+" target="_blank"><GrYoutube size={20} className='hover:text-red-500'/></a>
+                            <a href="https://www.tiktok.com/@japhetadjetey" target="_blank"><FaTiktok size={20} className='hover:text-red-500'/></a>
                         </div>
                     </div>
                 </div>

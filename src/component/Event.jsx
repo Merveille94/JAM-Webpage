@@ -10,7 +10,7 @@ const Event = () => {
                 <div className='container mx-auto flex justify-center md:justify-between items-center'>
                     <div className='flex flex-col items-center justify-center w-full md:w-[70%]'>
                         <div className='container text-center md:text-start mx-auto text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>{TITLE.gig}</div>
-                        <div className='container text-center md:text-start flex items-center text-slate-200 mx-auto pt-2'><p className='max-w-full md:max-w-xs'>Follow our ongoing concerts all over the world in 2022.</p></div>
+                        <div className='container text-center md:text-start flex items-center text-slate-200 mx-auto pt-2'><p className='max-w-full md:max-w-xs'>Follow our social media platforms for a quick update</p></div>
                     </div>
                     <div className='hidden md:flex p-2 hover:border-transparent border border-violet-700 rounded text-slate-200'><Link to={'/event'}>More Gigs</Link></div>
                 </div>

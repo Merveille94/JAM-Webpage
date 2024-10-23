@@ -59,9 +59,12 @@ const Album = () => {
                                 <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-95'>
                                     <h4 className='mb-2 text-xs md:text-xl lg:text-lg'>Available on</h4>
                                     <div className='flex space-x-2'>
-                                        <GrYoutube size={20} className='hover:text-red-600'/>
-                                        <GrApple size={20} className='hover:text-gray-500'/>
-                                        <GrSpotify size={20} className='hover:text-green-600'/>
+                                        <a href="https://youtube.com/@japhetadjeteyofficial
+" target="_blank"><GrYoutube size={20} className='hover:text-red-500'/></a>
+                                        <a href="https://music.apple.com/gh/artist/japhet-adjetey/1480367590
+" target="_blank"><GrApple size={20} className='hover:text-gray-500'/></a>
+                                       <a href="https://open.spotify.com/artist/0BixJwgjEUBRFD98Qng06i
+" target="_blank"> <GrSpotify size={20} className='hover:text-green-600'/></a>
                                     </div>
                                 </div>
                             </div>
