@@ -29,7 +29,7 @@ const Hero = () => {
             <img className='h-full w-full object-cover' alt='background image brown' src={bgImage} />
             <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-t from-zinc-900 via-gray-900/50'></div>
             <div className='absolute inset-0 flex items-center justify-center'>
-                <div className='relative right-0 left-0 inset-0 w-[50%] md:w-[43%] '>
+                <div className='relative right-0 left-0 inset-0 w-[50%] md:w-[41%] '>
                     <img src={bgImage2} alt='background image' className='h-full w-auto m-auto left-0 right-0 z-10 object-contain'/>
                 </div>
                 <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-t from-zinc-900'></div>

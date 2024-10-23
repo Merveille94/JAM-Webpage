@@ -51,19 +51,13 @@ const Videos = () => {
                                     This is a description of Album {index + 1}. Discover the latest tracks and enjoy the
                                     music.
                                 </p>
-                                <div className="flex space-x-4">
-                                    <a href="#" aria-label="YouTube"
-                                       className="text-gray-400 hover:text-red-500 transition-colors duration-300">
-                                        <GrYoutube size={24}/>
-                                    </a>
-                                    <a href="#" aria-label="Apple Music"
-                                       className="text-gray-400 hover:text-gray-100 transition-colors duration-300">
-                                        <GrApple size={24}/>
-                                    </a>
-                                    <a href="#" aria-label="Spotify"
-                                       className="text-gray-400 hover:text-green-500 transition-colors duration-300">
-                                        <GrSpotify size={24}/>
-                                    </a>
+                                <div className="flex space-x-4 text-white">
+                                    <a href="https://youtube.com/@japhetadjeteyofficial
+" target="_blank"><GrYoutube size={24} className='hover:text-red-500'/></a>
+                                    <a href="https://music.apple.com/gh/artist/japhet-adjetey/1480367590
+" target="_blank"><GrApple size={24} className='hover:text-gray-500 mx-2'/></a>
+                                    <a href="https://open.spotify.com/artist/0BixJwgjEUBRFD98Qng06i
+" target="_blank"> <GrSpotify size={24} className='hover:text-green-600'/></a>
                                 </div>
                             </div>
                         </div>

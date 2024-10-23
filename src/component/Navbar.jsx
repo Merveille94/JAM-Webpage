@@ -59,14 +59,17 @@ const Navbar = () => {
                 </ul>
                 <div className='flex'>
                     <div className='hidden md:flex'>
-                        <FaInstagram size={28} className='icon mr-3 hover:text-orange-500' />
-                        <FaXTwitter size={28} className='icon mr-3 hover:text-black' />
-                        <FaFacebook size={28} className='icon mr-3 hover:text-blue-700' />
+                        <a href="https://www.instagram.com/japhetadjetey
+" target="_blank"><FaInstagram size={28} className='hover:text-orange-500'/></a>
+                        <a href="https://twitter.com/japhetadjetey
+" target="_blank"><FaXTwitter size={28} className='hover:text-black mx-2'/></a>
+                        <a href="ttps://www.facebook.com/japhetAadjetey
+" target="_blank"><FaFacebook size={28} className='hover:text-blue-400'/></a>
                     </div>
 
                     {/*Hamburger menu */}
                     <div onClick={handleNav} className='xl:hidden flex z-10'>
-                        {nav ? <IoCloseOutline size={35} className='text-slate-100' /> : <RxHamburgerMenu size={30} className='text-slate-100 border rounded-full p-1 hover:border-transparent' />}
+                    {nav ? <IoCloseOutline size={35} className='text-slate-100' /> : <RxHamburgerMenu size={30} className='text-slate-100 border rounded-full p-1 hover:border-transparent' />}
                     </div>
                 </div>
 
